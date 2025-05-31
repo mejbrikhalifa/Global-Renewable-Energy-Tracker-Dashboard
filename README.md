@@ -6,13 +6,13 @@ An interactive Tableau dashboard and Python-powered data pipeline analyzing the 
 The dashboard highlights key global insights into renewable energy trends, featuring:
 
 - **Total global renewable energy capacity**
-- **Solar**, **Wind**, and **Hydropower** shares of total capacity
-- **Top N producing countries** with capacity and percent share
-- **Yearly capacity growth curve** (1990–2024)
+- **Solar, Wind, and Hydropower shares of total capacity**
+- **Top N producing countries with capacity and percent share**
+- **Yearly capacity growth curve (1990–2024)**
 - **Regional and country-level distribution**
 - **Repartition by energy type**
 - **Sortable table of total capacity by country**
-- **Interactive filters**: by Region, Energy Type, and Top N Countries
+- **Interactive filters: by Region, Energy Type, and Top N Countries**
 
 ### **The Full Tableau Dashboard is attached as .twb and .twbx: Renewable Energy Dashboard_Dr Khalifa Mejbri**
 
@@ -39,12 +39,10 @@ We used Python to clean and transform raw renewable energy project-level data. K
 📁 See the attched file (**Renewable_Energies_Data_Preprocessing.ipynb**) for full details.
 
 ## **Key Insights**
-
-- **Solar and Wind** dominate the global renewable portfolio in recent years.
-- **China**, **United States**, and **Brazil** lead in installed renewable capacity.
-- The global capacity has grown exponentially since 1990, with strong regional differences.
-- The **Asia** region has seen the largest increase, while **Africa** still shows untapped potential.
-- Capacity-based weighting reveals deeper insights than simple project counts.
+- **Wind Energy** leads globally in installed capacity, representing **41%**, followed by **Solar Energy (30%)** and **Hydropower (27%)**, while **Bioenergy** and **Geothermal** Energy contribute marginally.
+- **Asia dominates** the global renewable energy capacity with nearly **49%**, followed by the **Americas (19.7%)** and Europe **(19.6%)**. **Africa** and **Oceania** share the smallest portions.
+- Among the **Top 10 producing countries**, **China** alone accounts for nearly half **(48.9%)** of the global installed capacity, followed by the **USA (12.6%)**, **Brazil (8.7%)**, and **Australia (6.5%)**. Other significant contributors include **India, Spain, UK, Sweden, Vietnam, and Canada**.
+- **Renewable capacity growth has accelerated significantly since 2006**. From modest beginnings (~7,000 MW in 1990), global installations soared to over **342,000 MW by 2023**, highlighting a strong upward trend.
 
 ## License & Attribution
 
